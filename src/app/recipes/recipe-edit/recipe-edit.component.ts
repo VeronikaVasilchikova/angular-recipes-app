@@ -31,8 +31,6 @@ export class RecipeEditComponent implements OnInit {
           this.initForm();
         }
       )
-
-      console.log(this.recipeForm);
   }
 
   onAddIngredient() {
